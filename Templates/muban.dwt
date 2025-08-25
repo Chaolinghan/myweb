@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+body {
+	background-color: #131313;
+}
+#apDiv1 {
+	position:absolute;
+	width:160px;
+	height:115px;
+	z-index:1;
+	left: 56px;
+	top: 212px;
+}
+#apDiv2 {
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:1;
+	left: 27px;
+	top: 70px;
+}
+#apDiv3 {
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:2;
+	left: 26px;
+	top: 243px;
+}
+#apDiv4 {
+	position:absolute;
+	width:100px;
+	height:100px;
+	z-index:1;
+	left: -1px;
+	top: 166px;
+}
+#apDiv5 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:2;
+	left: 344px;
+	top: 32px;
+}
+#apDiv6 {
+	position:absolute;
+	width:557px;
+	height:68px;
+	z-index:3;
+	left: 588px;
+	top: 43px;
+	color: #FFF;
+	font-size: 40px;
+	font-family: "Comic Sans MS", cursive;
+}
+#apDiv7 {
+	position:absolute;
+	width:551px;
+	height:31px;
+	z-index:4;
+	color: #FFF;
+	top: 111px;
+	left: 569px;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+}
+#apDiv8 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:5;
+	left: 569px;
+	top: 151px;
+	color: #FFF;
+}
+#apDiv9 {
+	position:absolute;
+	width:114px;
+	height:52px;
+	z-index:6;
+	color: #FFF;
+	font-size: 30px;
+	text-align: center;
+	left: 1407px;
+	top: 73px;
+}
+#apDiv10 {
+	position:absolute;
+	width:82px;
+	height:39px;
+	z-index:1;
+	left: -1057px;
+	top: 237px;
+	font-size: 18px;
+	text-align: left;
+	font-family: "Comic Sans MS", cursive;
+}
+#apDiv11 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:7;
+	left: 347px;
+	top: 364px;
+	color: #FFF;
+}
+.geci {
+	font-size: 20px;
+}
+#apDiv12 {
+	position:absolute;
+	width:106px;
+	height:49px;
+	z-index:8;
+	left: 150px;
+	top: 65px;
+	color: #9F9;
+	font-size: 22px;
+	font-family: "Comic Sans MS", cursive;
+}
+a:link {
+	color: #0FC;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0FC;
+}
+a:hover {
+	text-decoration: none;
+	color: #0FC;
+}
+a:active {
+	text-decoration: none;
+	color: #0FC;
+}
+#apDiv13 {
+	position:absolute;
+	width:96px;
+	height:41px;
+	z-index:9;
+	left: 748px;
+	top: 242px;
+	color: #FFF;
+	font-size: 18px;
+}
+#apDiv14 {
+	position:absolute;
+	width:104px;
+	height:41px;
+	z-index:10;
+	left: 1264px;
+	top: 245px;
+	font-size: 18px;
+	color: #FFF;
+}
+#apDiv15 {
+	position:absolute;
+	width:104px;
+	height:48px;
+	z-index:9;
+	left: 77px;
+	top: 357px;
+	color: #FFF;
+	font-size: 18px;
+	font-family: "Comic Sans MS", cursive;
+	text-align: center;
+}
+#apDiv16 {
+	position:absolute;
+	width:104px;
+	height:42px;
+	z-index:10;
+	left: 79px;
+	top: 689px;
+	font-size: 18px;
+	text-align: center;
+	color: #FFF;
+	font-family: "Comic Sans MS", cursive;
+}
+#apDiv17 {
+	position:absolute;
+	width:88px;
+	height:46px;
+	z-index:11;
+	color: #FFF;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 18px;
+	text-align: center;
+	left: 6px;
+	top: 76px;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body onload="MM_preloadImages('../SuCai/已关注.png')">
+<div id="apDiv15">首页</div>
+<div id="apDiv16">关于</div>
+<div id="apDiv12"><a href="../webpage/ShouYe.html">返回</a>
+  <div id="apDiv13">专辑</div>
+  <div id="apDiv14">时长</div>
+</div>
+<div id="apDiv6"><!-- TemplateBeginEditable name="1" --><!-- TemplateEndEditable --></div>
+<div id="apDiv7"><!-- TemplateBeginEditable name="2" --><!-- TemplateEndEditable --></div>
+<div id="apDiv1"><a href="../webpape/ShouYe.html"><img src="../SuCai/DangHangTuPian.webp" width="156" height="611" id="Image1" /></a>
+  <div id="apDiv3"><a href="../webpage/ReGeBang.html"><img src="../SuCai/TuBiao2.png" width="100" height="100" /></a>
+    <div id="apDiv17">榜单</div>
+<div id="apDiv4"><a href="../webpage/WoDe.html"><img src="../SuCai/TuBiao3.png" width="100" height="100" border="0" id="Image2" /></a></div>
+  </div>
+<div id="apDiv2"><a href="../webpage/ShouYe.html"><img src="../SuCai/TuBiao1.png" width="100" height="100" /></a></div>
+</div>
+<div id="apDiv5"><!-- TemplateBeginEditable name="50" --><!-- TemplateEndEditable --></div>
+<div id="apDiv8"><!-- TemplateBeginEditable name="23" --><!-- TemplateEndEditable --></div>
+<div id="apDiv9"><img src="../SuCai/未关注.webp" width="178" height="60" id="Image3" onclick="MM_swapImage('Image3','','../SuCai/已关注.webp',1)" ondblclick="MM_swapImgRestore()" />
+  <div id="apDiv10">歌曲</div>
+</div>
+<div id="apDiv11">
+  <table width="1200" border="0" cellspacing="0" cellpadding="9">
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="3" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="13" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="24" --><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="4" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="14" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="25" --><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="5" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="15" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="26" --><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="6" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="16" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="27" --><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="7" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="17" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="28" --><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="8" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="18" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="29" --><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="9" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="19" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="30" --><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="10" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="20" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="31" --><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="11" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="21" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="32" --><!-- TemplateEndEditable --></td>
+    </tr>
+    <tr>
+      <td width="30">&nbsp;</td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="12" --><!-- TemplateEndEditable --></td>
+      <td width="500" class="geci"><!-- TemplateBeginEditable name="22" --><!-- TemplateEndEditable --></td>
+      <td class="geci"><!-- TemplateBeginEditable name="33" --><!-- TemplateEndEditable --></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

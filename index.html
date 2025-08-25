@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和盒首页</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        * {
+            list-style: none;
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        body {
+
+            width: 50vw;
+            background-image: url(images/背景图片/beijing.jpg);
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+        }
+
+        /* 标题开始 */
+        nav {
+            float: left;
+            height: 6vh;
+            width: 100vw;
+            color: white;
+            padding-top: 2vh;
+
+        }
+
+        nav ul li {
+            float: right;
+            margin: 0 1.5vw 0 1.5vw;
+            font-size: 1.8vh;
+            text-shadow: 1px 1px 3px black;
+            border-bottom: 1px solid red;
+        }
+
+        nav ul li a:hover {
+            color: rgb(101, 115, 241);
+            text-shadow: 1px 1px 3px rgb(101, 115, 241);
+        }
+
+        /* 标题结束 */
+
+        /* 标题文字和按钮 */
+        article {
+            float: left;
+            width: 100%;
+            margin: 14.5vh 0 0 10vw;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 3.5vw;
+            line-height: 10vh;
+        }
+
+        .TuPian {
+            float: left;
+            width: 9vw;
+            height: 15vh;
+            margin: 1vh 0 0 10vw;
+        }
+
+        .TuPian img {
+            width: 80%;
+            height: 80%;
+        }
+
+        /* 标题和按钮结束 */
+    </style>
+</head>
+
+<body>
+    <!-- 标题开始 -->
+    <nav>
+        <ul>
+            <li><a href="webpage/GeRenJieShao.html" target="_blank">关于我</a></li>
+            <li><a href="#">未更新</a></li>
+            <li><a href="webpage/ShouYe.html" target="_blank">首页</a></li>
+        </ul>
+    </nav>
+    <!-- 标题结束 -->
+    <!-- 文字布分 -->
+    <article>
+        <p>My personal</p>
+        <p>Blog Site</p>
+    </article>
+    <!-- 文字结束 -->
+    <div class="TuPian">
+        <a href="webpage/ShouYe.html" target="_blank"><img src="images/TuBiao4.webp" alt="图片丢失了！"></a>
+    </div>
+
+    <script>
+        alert('欢迎访问我的个人网页')
+    </script>
+</body>
+
+</html>
