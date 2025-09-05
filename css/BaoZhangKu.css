@@ -1,0 +1,169 @@
+   * {
+       margin: 0px;
+       padding: 0px;
+       list-style: none;
+       box-sizing: border-box;
+   }
+
+   a {
+       text-decoration: none;
+       color: #0f0f0f;
+   }
+
+
+   body {
+       background-image: url(../images/背景图片/bjt6.jpg);
+       background-repeat: no-repeat;
+       background-size: 100vw 100vh;
+   }
+
+   /* 导航栏开始 */
+   .nav a:hover {
+       font-size: 1.1vw;
+       color: rgb(86, 165, 250);
+       transition: all 0.1s;
+
+   }
+
+   .nav {
+       float: left;
+       width: 12%;
+       height: 100vh;
+       background-color: rgba(255, 255, 255, 0.5);
+       box-shadow: 0.2px 0px 3px 0.1px #aeaeae;
+   }
+
+   .nav p {
+       margin: 15% 10% 2% 24%;
+   }
+
+   .websitename {
+       float: left;
+       width: 12vw;
+       height: 10vh;
+       font-size: 1.3vw;
+   }
+
+   .XBiaoTi {
+       float: left;
+       width: 80%;
+       margin-top: 10%;
+       padding: 0% 0% 12% 13%;
+       font-size: 0.8vw;
+       color: rgb(78, 78, 78);
+   }
+
+   .menu {
+       float: left;
+       width: 100%;
+       height: 18vh;
+   }
+
+   .menu li {
+       float: left;
+       padding: 0% 0% 18% 13.5%;
+       width: 85%;
+       height: 38.43%;
+       line-height: 3vh;
+       font-size: 0.85vw;
+   }
+
+   .menu2 li {
+       float: left;
+       padding: 0% 0% 10% 13.5%;
+       width: 85%;
+       height: 18%;
+       line-height: 3vh;
+       font-size: 0.85vw;
+   }
+
+   .menu li div {
+       float: left;
+       width: 2vw;
+       height: 2vh;
+       margin-right: 1.5vw;
+   }
+
+   /* 导航栏结束 */
+
+   /* 搜索栏开始 */
+   search {
+       float: left;
+       width: 15vw;
+       height: 3vh;
+       font-size: 1.5vh;
+       background-color: rgb(255, 255, 255);
+       margin: 1vh 0 1.4vh 6.5vw;
+       border-radius: 20px;
+   }
+
+   search p {
+       line-height: 3vh;
+       margin-left: 5%;
+       color: rgba(188, 188, 188, 0.8);
+   }
+
+   .TouXiang {
+       float: right;
+       width: 5vw;
+       height: 3vh;
+       margin: 1vh 6.5vw 1.4vh 0;
+   }
+
+   .TouXiang img {
+       float: right;
+       border-radius: 50%;
+       height: 100%;
+   }
+
+   /* 搜索栏结束 */
+
+   /* 正文大盒子开始 */
+   .BiaoTi {
+       float: left;
+       width: 70vw;
+       margin: 0vh 0 1vh 6.5vw;
+       font-size: 3vh;
+   }
+
+   .bigbox {
+       float: left;
+       width: 75vw;
+       height: 80vh;
+       background-color: rgba(254, 254, 254, 0.4);
+       margin-left: 6.5vw;
+       margin-top: 0vh;
+       border-radius: 2%;
+       box-shadow: 2px 2px 3px rgba(0, 0, 0, .1);
+   }
+
+   .bigbox ul {
+       float: left;
+       width: 90%;
+       height: 88%;
+       margin: 4vh 0 0 3vw;
+   }
+
+   .bigbox ul li {
+       float: left;
+       width: 100%;
+       height: 9%;
+       margin-top: 1vh;
+       font-size: 1.5vh;
+       font-family: "宋体";
+   }
+
+   .bigbox ul li:first-child {
+       margin-top: 0px;
+   }
+
+   /* 正文大盒子结束 */
+
+   /* 大盒子正文文字开始 */
+   .bigbox ul li a {
+       margin: 0 2vw 0 2vw;
+   }
+
+   .bigbox ul li a:hover {
+       color: rgb(249, 93, 93);
+   }
